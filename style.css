@@ -1,0 +1,76 @@
+.py-5{
+    padding: 10%;
+    border: rgb(250, 8, 8);
+}
+/*.col-2{
+    border: black;
+}
+.nav flex-column{
+    background-origin: padding-box;
+    border: black;
+}*/
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: 0;
+    list-style: none;
+}
+body{
+    font-family: montserrat;
+}
+nav{
+    height: 100px;
+    width: 100%;
+
+    background: rgb(174, 12, 12);
+    box-shadow: 0 10px 20px 0 rgb(8, 10, 23);
+}
+label.logo{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    padding: 0 100px;
+    line-height: 100px;
+}
+nav ul{
+    float: right;
+    margin-right: 50px;
+}
+nav li{
+    display: inline-block;
+    margin: 0 10px;
+    line-height: 100px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 5px solid white;
+    padding: 7px 10px;
+    border-radius: 3px;
+}
+a.active{
+    border: 5px solid black;
+    
+    color: rgb(255, 30, 0);
+    transition: 1.5s;
+}
+
+ a:hover{
+    border: 8px solid black;
+    background-color: goldenrod;
+    color: #fff;
+    transition: .5s;
+}
+.btn btn-outline-success{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 5px solid white;
+    padding: 7px 10px;
+    border-radius: 3px;
+}
